@@ -34,7 +34,7 @@ body,html{
     padding: 6px 14px;
 } */
 .form-body{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .custom-input{
     border: none;
@@ -52,6 +52,7 @@ body,html{
    font-weight: 700;
    font-size: 15px;
    margin-top: 5px;
+   margin-bottom: 90px;
 }
 .or{
     font-family: sans-serif;
@@ -72,6 +73,7 @@ body,html{
 .btn-custom-create{
     background-color: #32A04F;
     width: 80%;
+    margin-top: 80px;
     margin-bottom: 50px;
     border-radius: 5px;
     font-weight: 700;

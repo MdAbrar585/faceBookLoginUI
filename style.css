@@ -1,0 +1,75 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+}
+.head-image{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background: url(images/1.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.custom-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    color: wheat;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.custom-container h1{
+    font-size: 72px;
+    letter-spacing: .2em;
+}
+/* .custom-container h1 span{
+    border: 10px solid white;
+    padding: 6px 14px;
+} */
+.form-body{
+    margin-top: 50px;
+}
+.custom-input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid lightgray;
+}
+.btn-custom{
+    width: 100%;
+    color: lightcyan;
+}
+.forgot-text{
+   color: blue;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top: 5px;
+}
+.or{
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+/* .or:before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #0000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+} */
+.btn-custom-create{
+    background-color: rgb(8, 179, 8);
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-weight: 700;
+}

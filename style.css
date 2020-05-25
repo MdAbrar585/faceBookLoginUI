@@ -9,7 +9,7 @@ body,html{
     position: relative;
     height: 300px;
     overflow: hidden;
-    background: url(images/1.jpg) no-repeat center;
+    background: url(images/j.jpg) no-repeat center;
     background-size: cover;
 
 }
@@ -33,6 +33,21 @@ body,html{
     border: 10px solid white;
     padding: 6px 14px;
 } */
+
+.more{
+    text-align: center;
+    color: #949494;
+    font-size: 14px;
+}
+.more a:hover{
+    text-decoration: none;
+}
+.dot{
+    font-size: 30px;
+}
+.point{
+    width: 40%;
+}
 .form-body{
     margin-top: 100px;
 }
